@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.balao2{
+	background: #000;
+	border-radius: 15px;
+	width: 300px;
+	height: 100px;
+
+	position: relative;
+}
+.balao2:after{
+
+	content: "";
+
+	width: 0;
+	height: 0;
+
+	position: absolute;
+
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #000;
+	
+	bottom: -20px;
+	left: 20%;
+}
+    </style>
+</head>
+<body>
+    <div class="balao"></div>
+    <div class="balao2"></div>
+</body>
+</html>
