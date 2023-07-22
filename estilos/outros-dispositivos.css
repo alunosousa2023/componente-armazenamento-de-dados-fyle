@@ -50,16 +50,7 @@
         width: 300px;
     }
 
-    #sub_conteiner2-1 {
-        position:absolute;
-        display: flex;
-        background-color: white;;
-        width: 150px;
-        height: 60px;
-        border-radius: 10px 10px 10px 10px;
-        
-        justify-content: center;
-    
+    #sub_conteiner2-1 {        
         left:50%;
         top:-40%;
     }
